@@ -1,6 +1,8 @@
 # SQL Öğrenme Deposu
 
-Microsoft SQL Server üzerinde SQL pratiği yapmak için başlangıç deposu. Örnekler T-SQL kullanır.
+Microsoft SQL Server üzerinde SQL pratiği yapmak için kişisel öğrenme deposu. Örnekler T-SQL kullanır; `YOBU/` klasörü üniversite çalışmaları için ayrılmıştır.
+
+> **Herkese açık depo:** `YOBU/` içine yüklemeden önce ödevlerin ve ders materyallerinin paylaşılmasına izin verildiğini kontrol et; kişisel veya üniversiteye özel bilgileri ekleme. YouTube videolarını, ders notlarını, slaytları, transkriptleri ya da başkasına ait çözümleri izinsiz kopyalamak yerine kaynak bağlantısını ve kendi notlarını ekle. Depoda lisans bulunmadığından içerik için açık bir yeniden kullanım izni verilmiş değildir.
 
 ## Gerekenler
 

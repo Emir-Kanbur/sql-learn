@@ -1,0 +1,35 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.publish.xml
+*.user
+*.suo
+*.pfx
+*.p12
+*.key
+
+# Local editor and SQL connection state
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.sqltools/
+
+# Local SQL Server databases, exports, and backups
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+*.bacpac
+*.dacpac
+
+# Build output and logs
+bin/
+obj/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
