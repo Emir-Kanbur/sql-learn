@@ -28,6 +28,12 @@ Microsoft SQL Server üzerinde SQL pratiği yapmak için başlangıç deposu. Ö
 - `SalesOrders`: siparişler
 - `OrderItems`: sipariş satırları
 
+## Klasörler
+
+- [`YOBU/`](./YOBU/): Üniversite dersleri, çalışmalar ve ödevler.
+- [`learn/`](./learn/): SQL eğitim notları, örnekler ve kişisel pratik.
+- [`lessons/`](./lessons/): Bu deponun adım adım SQL Server dersleri ve alıştırmaları.
+
 ## Ders sırası
 
 1. `SELECT`, sütun seçimi, `WHERE` ve `ORDER BY`
