@@ -1,0 +1,38 @@
+# SQL Öğrenme Deposu
+
+Microsoft SQL Server üzerinde SQL pratiği yapmak için başlangıç deposu. Örnekler T-SQL kullanır.
+
+## Gerekenler
+
+- Microsoft SQL Server (yerel kurulum veya erişimin olan bir sunucu)
+- Sorguları çalıştırmak için SQL Server Management Studio (SSMS) ya da Visual Studio Code'daki MSSQL eklentisi
+
+## Başlangıç
+
+1. SQL Server'a bağlan ve `SqlLearn` adında boş bir veritabanı oluştur:
+
+   ```sql
+   CREATE DATABASE SqlLearn;
+   ```
+
+2. `SqlLearn` veritabanını seçip [`setup.sql`](./setup.sql) dosyasını çalıştır. Dosya örnek tabloları ve verileri oluşturur; tekrar çalıştırıldığında mevcut örnek kayıtları çoğaltmaz.
+3. [`lessons/01-select/lesson.sql`](./lessons/01-select/lesson.sql) dosyasındaki örnekleri sırayla çalıştır.
+4. Önce [`lessons/01-select/exercises.sql`](./lessons/01-select/exercises.sql) alıştırmalarını kendin çöz. Takıldığında [`lessons/01-select/solutions.sql`](./lessons/01-select/solutions.sql) dosyasına bak.
+
+> `CREATE DATABASE` iznin yoksa, sunucu yöneticinden bir veritabanı oluşturmasını iste ve `setup.sql` dosyasını o veritabanına bağlıyken çalıştır.
+
+## Örnek şema
+
+- `Customers`: müşteriler
+- `Products`: ürünler
+- `SalesOrders`: siparişler
+- `OrderItems`: sipariş satırları
+
+## Ders sırası
+
+1. `SELECT`, sütun seçimi, `WHERE` ve `ORDER BY`
+2. Sonraki adım: `JOIN` ile tabloları birleştirme
+3. Sonraki adım: `GROUP BY`, toplama fonksiyonları ve `HAVING`
+4. Sonraki adım: alt sorgular, CTE'ler ve veri değiştirme komutları
+
+Her yeni konu için `lessons/` altında ayrı bir klasör açıp örnekleri, alıştırmaları ve çözümleri ayrı dosyalarda tutabilirsin.
