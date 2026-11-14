@@ -1,0 +1,2 @@
+-- 1. Katılımcı kodunu, bağlı olduğu bölümü ve almış olduğu ders kodlarını göster.
+-- 2. Kayit tablosunun anahtarına Donem sütunu eklenmesinin nedenini açıkla.

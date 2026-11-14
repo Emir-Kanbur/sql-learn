@@ -31,7 +31,10 @@ sqlcmd -d master -Q 'CREATE DATABASE SqlLearnCheck;'
 sqlcmd -d SqlLearnCheck -i /dev/stdin < setup.sql
 sqlcmd -d SqlLearnCheck -i /dev/stdin < setup.sql
 sqlcmd -d SqlLearnCheck -i /dev/stdin < tests/verify-setup.sql
-for file in lessons/*/lesson.sql lessons/*/solutions.sql; do
+sqlcmd -d SqlLearnCheck -i /dev/stdin < YOBU/bmh236/setup.sql
+sqlcmd -d SqlLearnCheck -i /dev/stdin < YOBU/bmh236/setup.sql
+sqlcmd -d SqlLearnCheck -i /dev/stdin < tests/verify-bmh236.sql
+for file in lessons/*/{lesson,solutions}.sql YOBU/bmh236/*/{lesson,solutions}.sql; do
   printf 'Sorgular doğrulanıyor: %s\n' "$file"
   sqlcmd -d SqlLearnCheck -i /dev/stdin < "$file" >/dev/null
 done

@@ -1,0 +1,2 @@
+-- 1. Dönemlere göre tüm kayıtların, puanlı kayıtların ve puanı bekleyen kayıtların adetlerini göster.
+-- 2. Birden fazla ders kaydı olan katılımcıların ondalıklı not ortalamalarını hesapla.

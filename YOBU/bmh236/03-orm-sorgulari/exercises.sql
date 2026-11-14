@@ -1,0 +1,2 @@
+-- 1. Bölüm parametresiyle filtreleyip yalnızca ders kodu ve adını döndüren bir sorgu yaz.
+-- 2. Kayıt sayısı sıfır olan dersleri de içeren tek sorguyla kayıt adetlerini getir.

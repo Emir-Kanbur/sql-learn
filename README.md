@@ -31,7 +31,7 @@ Microsoft SQL Server üzerinde SQL pratiği yapmak için kişisel öğrenme depo
 
 ## Klasörler
 
-- [`YOBU/`](./YOBU/): Üniversite dersleri, çalışmalar ve ödevler.
+- [`YOBU/bmh236/`](./YOBU/bmh236/): BMH236 konularını izleyen yedi haftalık SQL Server alıştırmaları ve bağımsız `bmh236` şeması.
 - [`learn/`](./learn/): SQL eğitim notları, örnekler ve kişisel pratik.
 - [`lessons/`](./lessons/): Bu deponun adım adım SQL Server dersleri ve alıştırmaları.
 

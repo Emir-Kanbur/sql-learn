@@ -1,0 +1,2 @@
+-- 1. Hiç kayıt yaptırmamış katılımcıların örnek kodlarını LEFT JOIN ile getir.
+-- 2. Ders 10'a kayıtlı olup ders 20'ye kayıtlı olmayan katılımcıları EXCEPT ile getir.

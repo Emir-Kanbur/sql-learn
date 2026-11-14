@@ -1,0 +1,2 @@
+-- 1. Geçici bir tabloda her raf kodunun benzersiz olmasını ve adedin negatif olmamasını sağla.
+-- 2. Adet vermeden bir satır ekle ve varsayılan değeri gözlemle.

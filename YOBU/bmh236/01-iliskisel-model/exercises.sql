@@ -1,0 +1,1 @@
+-- 1. Kredisi tam 3 olan derslerin kodunu ve adını, ders koduna göre sırala.

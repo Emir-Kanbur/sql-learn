@@ -1,5 +1,3 @@
-# YOBU
+# YOBÜ SQL Server uygulamaları
 
-YOBU üniversite çalışmaları, ders notları ve ödevler için kişisel alan.
-
-Her ders veya ödev için açıklayıcı adla ayrı bir alt klasör oluşturabilirsin.
+[BMH236 · Veritabanı Yönetim Sistemi](bmh236/) dizininde yedi haftalık T-SQL uygulamaları, alıştırmalar ve çözümler bulunur.

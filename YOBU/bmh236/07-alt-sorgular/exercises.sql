@@ -1,0 +1,2 @@
+-- 1. Hiç kayıt almayan dersleri NOT EXISTS ile getir.
+-- 2. Her ders için kendi ders ortalamasının üzerinde puan alan kayıtları göster.
