@@ -11,15 +11,14 @@ Microsoft SQL Server üzerinde SQL pratiği yapmak için kişisel öğrenme depo
 
 ## Başlangıç
 
-1. SQL Server'a bağlan ve `SqlLearn` adında boş bir veritabanı oluştur:
+1. SQL Server'a bağlan ve alıştırmalar için boş bir veritabanı oluştur. Örneğin:
 
    ```sql
    CREATE DATABASE SqlLearn;
    ```
 
-2. `SqlLearn` veritabanını seçip [`setup.sql`](./setup.sql) dosyasını çalıştır. Dosya örnek tabloları ve verileri oluşturur; tekrar çalıştırıldığında mevcut örnek kayıtları çoğaltmaz.
-3. [`lessons/01-select/lesson.sql`](./lessons/01-select/lesson.sql) dosyasındaki örnekleri sırayla çalıştır.
-4. Önce [`lessons/01-select/exercises.sql`](./lessons/01-select/exercises.sql) alıştırmalarını kendin çöz. Takıldığında [`lessons/01-select/solutions.sql`](./lessons/01-select/solutions.sql) dosyasına bak.
+2. Oluşturduğun veritabanını seç ve [`setup.sql`](./setup.sql) dosyasını çalıştır. Kurulum tabloları ve örnek kayıtları tek işlemde oluşturur. Tekrar çalıştırıldığında yalnızca eksik kimlikleri ekler.
+3. Aynı veritabanında aşağıdaki dersleri sırayla aç. Her klasörde `lesson.sql` örnekleri, `exercises.sql` soruları ve `solutions.sql` çözümleri içerir.
 
 > `CREATE DATABASE` iznin yoksa, sunucu yöneticinden bir veritabanı oluşturmasını iste ve `setup.sql` dosyasını o veritabanına bağlıyken çalıştır.
 
@@ -38,9 +37,14 @@ Microsoft SQL Server üzerinde SQL pratiği yapmak için kişisel öğrenme depo
 
 ## Ders sırası
 
-1. `SELECT`, sütun seçimi, `WHERE` ve `ORDER BY`
-2. Sonraki adım: `JOIN` ile tabloları birleştirme
-3. Sonraki adım: `GROUP BY`, toplama fonksiyonları ve `HAVING`
-4. Sonraki adım: alt sorgular, CTE'ler ve veri değiştirme komutları
+1. [SELECT](./lessons/01-select/) ile sütun seçimi, `WHERE` ve `ORDER BY`
+2. [JOIN](./lessons/02-join/) ile tabloları birleştirme
+3. [GROUP BY](./lessons/03-group-by/) ile gruplama, toplama fonksiyonları ve `HAVING`
 
-Her yeni konu için `lessons/` altında ayrı bir klasör açıp örnekleri, alıştırmaları ve çözümleri ayrı dosyalarda tutabilirsin.
+## Otomatik doğrulama
+
+GitHub Actions, geçici bir SQL Server 2022 örneğinde kurulumu iki kez çalıştırır, örnek kayıtları kontrol eder ve tüm ders ve çözüm sorgularını yürütür. Aynı kontrolü Docker ve OpenSSL bulunan x86-64 Linux ortamında çalıştırabilirsin:
+
+```sh
+bash scripts/check-sql.sh
+```

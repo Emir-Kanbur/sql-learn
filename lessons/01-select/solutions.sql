@@ -1,5 +1,4 @@
-USE SqlLearn;
-GO
+-- Sorguları örnek verilerin kurulduğu veritabanında çalıştırın.
 
 -- 1. Tüm ürün adlarını ve fiyatlarını listele.
 SELECT ProductName, Price

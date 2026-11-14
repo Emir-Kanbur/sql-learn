@@ -1,5 +1,4 @@
-USE SqlLearn;
-GO
+-- Sorguları örnek verilerin kurulduğu veritabanında çalıştırın.
 
 -- Tablodaki tüm sütunları görmek için * kullanabilirsin.
 SELECT *
